@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <!-- You can remove this because you already have reset in main.scss -->
+    <!-- <link href="reset.css" rel="stylesheet" type="text/css" /> -->
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Bangers|Cabin+Sketch:400,700|Freckle+Face|Press+Start+2P" rel="stylesheet">
   </head>
@@ -53,13 +54,13 @@
     </div>
 
    <div class="battle-btns">
-     <div class="rock">
+     <div class="attack rock" data-attack='rock'>
        <img src="//i.imgur.com/0sWAgmm.png" width="100%">
        Rock
-     </div><div class="paper">
+     </div><div class="attack paper" data-attack='paper'>
        <img src="//i.imgur.com/aU8NcKH.png">
        Paper
-     </div><div class="scissors">
+     </div><div class="attack scissors" data-attack='scissors'>
        <img src="//i.imgur.com/n4HFHgj.png">
        Scissors
      </div>
